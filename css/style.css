@@ -34,9 +34,6 @@ https://getbootstrap.com/docs/4.0/getting-started/download/
     -webkit-background-clip: text;
     background-clip: text;
     text-align: center;
-    /*padding: 2% 14%;*/
-    grid-column: 2/2;
-    grid-row: 1/1;
 
 }
 /*
@@ -439,8 +436,8 @@ nav ul li a {
 }
 
 .imagenIconoRedes {
-    width: 30px;
-    height: 30px;
+    width: 55px;
+    height: 40px;
     /*padding-right: 10px;
     padding-left: 20px;*/
 
@@ -450,7 +447,7 @@ nav ul li a {
 }
 
 .divIconosRedes {
-    border: 1px solid white;
+    /*border: 1px solid white;*/
     /*
     float: right;
     margin-right: 3%;
@@ -460,6 +457,7 @@ nav ul li a {
 
 .divIconosRedes > a > img{
     transform: scale(1,1);
+    margin-right: 20px;
 }
 
 .divIconosRedes > a > img:hover{
@@ -514,15 +512,15 @@ nav ul li a {
     width: 120%;
     */
     height: 800px; 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.692), rgba(0, 0, 0, 0.705)),  url('../Img/foto_inicio_grey.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.692), rgba(0, 0, 0, 0.705)),  url('../img/foto_inicio_grey.jpg');
 
     background-repeat: no-repeat;
     background-position-x: center;
     background-size: cover;
     background-blend-mode: soft-light;
     /*background-color: rgba(48, 69, 100, 0.116);*/
-    /*background-image: url('../Img/foto_inicio.jpg');*/
-    /*background: transparent url('../Img/foto_inicio.jpg');*/
+    /*background-image: url('../img/foto_inicio.jpg');*/
+    /*background: transparent url('../img/foto_inicio.jpg');*/
 }
 
 .h1Bienvenida{
@@ -1109,22 +1107,16 @@ main{
 
 #misDatosFoto {
     text-align: center;
+    padding-left: 10%;
 }
 
-.divCargaDatos > div {
-    padding-bottom: 2%;
-    text-align: center;
-}
-.divCargaDatos{
-    margin-top: 2%;
-}
 
 .divCargaDatosText {
     transition: height 1s;
 }
 .divCargaDatosText:hover {
     background-color: rgb(235, 243, 191);
-    height: 20px;
+    height: 35px;
 
 }
 
@@ -1140,7 +1132,7 @@ main{
     margin-left: 12%;
     margin-right: 12%;    
     margin-bottom: 10px;
-    width: 80%;
+    width: 60%;
     height: 250px;
     transition: height;
 }
@@ -1160,7 +1152,8 @@ main{
 
 #misDatosBotones{
     margin-top: 3%;
-    padding-left: 40%;
+    padding-left: 45%;
+    padding-bottom: 2%;
 }
 
 .misDatosBotonIzq{
@@ -1479,11 +1472,11 @@ a.buttonVerFuenteNoticiaIzq:hover, a.buttonVerFuenteNoticiaDer:hover {
 
     /*width: 100%;*/
     /*margin-bottom: 20px;*/
-    /*background-image: url('../Img/mapa-del-sitio_organigrama.jpg');*/
+    /*background-image: url('../img/mapa-del-sitio_organigrama.jpg');*/
     /*background-blend-mode: soft-light;*/
     /*background-color: rgba(48, 69, 100, 0.116);*/
-    /*background-image: url('../Img/foto_inicio.jpg');*/
-    /*background: transparent url('../Img/foto_inicio.jpg');*/
+    /*background-image: url('../img/foto_inicio.jpg');*/
+    /*background: transparent url('../img/foto_inicio.jpg');*/
 }
 
 /* -------------- MAPA DEL SITIO ------------- */
