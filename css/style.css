@@ -95,6 +95,7 @@ https://getbootstrap.com/docs/4.0/getting-started/download/
 .navMenu ul li a {
     text-decoration: none;
 }
+
 .navMenu ul ul {
     position: absolute;
     display: none;
@@ -131,6 +132,10 @@ nav ul li a {
 
 }
 
+.nav li:hover > a {
+    background-color: #f0f3df;
+  }
+  
 .liSeleccionado {
     border-color: rgb(0, 255, 191);
 }
@@ -434,14 +439,7 @@ nav ul li a {
     scale: (1.5, 1.5);
 }
 
-.divIconosRedes {
-    /*border: 1px solid white;*/
-    /*
-    float: right;
-    margin-right: 3%;
-    */
-        
-}
+
 
 .divIconosRedes > a > img{
     transform: scale(1,1);
@@ -1480,27 +1478,6 @@ a.buttonVerFuenteNoticiaIzq:hover, a.buttonVerFuenteNoticiaDer:hover {
     padding-right: 8%;
 }
 
-.divlistaAyuda{
-    display: flex;
-    align-items: center;
-    float: none;
-}
-
-.divlistaAyuda__lista {
-    margin-left: 20%;
-    margin-bottom: 3%;
-}
-
-.divlistaAyuda__lista li{
-    margin: 4%;
-    color: #359477;
-}
-
-.divlistaAyuda__lista li a{
-    color: #359477;
-    
-}
-
 .detalleAyuda {
     display: grid;
     grid-template-areas: 
@@ -1555,31 +1532,5 @@ a.buttonVerFuenteNoticiaIzq:hover, a.buttonVerFuenteNoticiaDer:hover {
     75%{width: 60px; }
     100%{width: 50px;}
 }
-
-
-/*
-.detalleAyuda > p{
-    display: none;
-}
-
-.detalleAyuda > h2:hover ~#ayudaQuienesSomos {
-    display: block;
-}
-
-.detalleAyuda > h2:hover ~#ayudaQuienesSomos {
-    display: block;
-}
-
-.detalleAyuda > h2:hover ~#ayudaComoMeRegistro{
-    display: block;
-}
-.detalleAyuda > h2:hover ~#ayudaComoVeoLasFotos{
-    display: block;
-}
-.detalleAyuda > h2:hover ~#ayudaPorqueRegistrarMisDatos{
-    display: block;
-}
-*/
-
 
 /*---------------- FIN AYUDA ------------------*/
