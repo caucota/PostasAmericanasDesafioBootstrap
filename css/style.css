@@ -9,6 +9,7 @@ https://getbootstrap.com/docs/4.0/getting-started/download/
 *{
     margin: 0;
     padding: 0;
+    box-sizing:border-box;
 }
 
 
@@ -1330,29 +1331,34 @@ a.buttonVerFuenteNoticiaIzq:hover, a.buttonVerFuenteNoticiaDer:hover {
 }
 /* -------------- CONTACTO ------------- */
 
-#contactoDivContendorFormulario {
-    width: auto;
-    /* 
-    padding-left: 20%;
-    margin-top: 2%;
-    margin-bottom: 5%;
-    padding-right: 30%; 
-*/
-}
+
 
 #contactoDivGral {
-    padding-left: 5%; 
-    padding-right: 50%;
     border-style:inset; 
+    padding-left: 5%; 
+    /*padding-right: 50%;*/
     align-items: center;
-    display: grid;    
+    /*display: grid;    */
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr 0.5fr;
     grid-template-areas: 
-    "imagenTrabajoEquipo datos";
+    "titcontacto titcontacto"
+    "imagenTrabajoEquipo datos"
+    "botones botones";
+    
 }
-
+#contactoDivGral > h1{
+    grid-area: titcontacto;
+}
 #imgTrabajoEquipo {
     grid-area: imagenTrabajoEquipo;
+}
+
+#botonesContacto{
+    grid-area: botones;
+    align-items: center;
+    justify-content: center;
+
 }
 
 #griddatosContacto {
@@ -1373,19 +1379,10 @@ a.buttonVerFuenteNoticiaIzq:hover, a.buttonVerFuenteNoticiaDer:hover {
     padding-right: 15%;
 }
 
+/*
 @media screen and (min-width: 0px) and (max-width: 599px) {
-    /*
-    #contactoDivContendorFormulario {
-        padding-left: 0; 
-        margin-top: 2%;
-        margin-bottom: 5%;
-    }
-    */
-
     #contactoDivGral {
         display: flex;    
-        width: 99%; 
-        padding-left: 5%; 
         border-style:inset; 
         align-items: center;
     }
@@ -1394,17 +1391,9 @@ a.buttonVerFuenteNoticiaIzq:hover, a.buttonVerFuenteNoticiaDer:hover {
     }
 }
 @media screen and (min-width: 600px) and (max-width: 767px) {
-    /*
-    #contactoDivContendorFormulario {
-        padding-left: 10%; 
-        margin-top: 2%;
-        margin-bottom: 5%;
-    }
-    */
-
+  
     #contactoDivGral {
         display: flex;    
-        width: 89%; 
         padding-left: 5%; 
         border-style:inset; 
         align-items: center;
@@ -1413,19 +1402,11 @@ a.buttonVerFuenteNoticiaIzq:hover, a.buttonVerFuenteNoticiaDer:hover {
         width: 80%;
     }
 }
+
 @media screen and (min-width: 768px) and (max-width: 1223px) {
-    /*
-    #contactoDivContendorFormulario {
-        margin-top: 2%;
-        margin-bottom: 5%;
-        padding-left: 10%;
-    }
-    */
 
     #contactoDivGral {
         display: flex;    
-        width: 89%; 
-        padding-left: 5%; 
         border-style:inset; 
         align-items: center;
     }
@@ -1436,25 +1417,19 @@ a.buttonVerFuenteNoticiaIzq:hover, a.buttonVerFuenteNoticiaDer:hover {
 
 
 @media screen and (max-width: 1224px) {
-    /*
-    #contactoDivContendorFormulario {
-        margin-top: 2%;
-        margin-bottom: 5%;
-        padding-right: 50%; 
-    }
-*/
     #contactoDivGral {
         display: block;    
-        width: 100%; 
+        align-content: center;
         text-align:center;
-        padding-bottom: 5%;
+        width: 100%;
     }
-    #contactoDivGral > div{
-        padding-left: 30%;
-    } 
+
+    #textAreaConsulta{
+        width: auto;
+    }
 
 }
-
+*/
 /* -------------- FIN CONTACTO ------------- */
 
 
