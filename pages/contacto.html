@@ -39,42 +39,38 @@
             </section>
         </div>
     </header>    
-
-    <form action="construccion.html" style="position: unset;"  class="ColorFondoGral">
-        <div id="contactoDivContendorFormulario">
-            <div id="contactoDivGral">
-                <div id="imgTrabajoEquipo">
-                    <img src="../Img/contacto.jpg" alt="Imagen Trabajo en equipo">
+    <main>
+        <form action="construccion.html" class= "form-horizontal novedadRadial ColorFondoGral" style="display: flex; justify-content: center; border: 1px solid red; width: 50%; align-items: center;" >
+            <div id="contactoDivContendorFormulario" class="content">
+                <div id="contactoDivGral">
+                    <div id="imgTrabajoEquipo" class="col-6 col-xs-4 col-md-3">
+                        <img src="../Img/contacto.jpg" alt="Imagen Trabajo en equipo">
+                    </div>
+                    <div id="griddatosContacto" class="col-6 col-xs-4 col-md-3">
+                        <div class="form-group">
+                            <label id="labelNombre" class="form-label col-sm-2" for="nombre" >Nombre</label>
+                            <input class="divCargaDatosText" type="text" name="nombre">
+                        </div>
+                        <div class="form-group">
+                            <label id="labelTelefono" class="form-label col-sm-2" for="telefono">Telefono</label>
+                            <input class="divCargaDatosText" type="tel" name="telefono">
+                        </div>
+                        <div class="form-group">
+                            <label id="labelCorreo" class="form-label col-sm-2" for="correo">Correo</label>
+                            <input class="divCargaDatosText" type="email" name="correo">
+                        </div>
+                        <label class="form-label col-sm-2" for="consulta">Consulta</label>
+                        <textarea id="textAreaConsulta"  class="divCargaDatosTextArea" name="consulta" rows="10" cols="40"></textarea>
+                        <div>
+                            <input type="submit" value="Enviar Aporte">
+                            <input type="reset" value="Limpiar formulario">
+                            <!--Envia la info al archivo que figura en action-->
+                        </div>
+                    </div>            
                 </div>
-                <div id="griddatosContacto">
-                    <br>
-                    <div>
-                        <label id="labelNombre" for="nombre" >Nombre</label>
-                        <input class="divCargaDatosText" type="text" name="nombre">
-                    </div>
-                    <br>
-                    <div>
-                        <label id="labelTelefono" for="telefono">Telefono</label>
-                        <input class="divCargaDatosText" type="tel" name="telefono">
-                    </div>
-                    <br>
-                    <div>
-                        <label id="labelCorreo" for="correo">Correo</label>
-                        <input class="divCargaDatosText" type="email" name="correo">
-                    </div>
-                    <br>
-                    <label for="consulta">Consulta</label>
-                    <br>
-                    <textarea id="textAreaConsulta"  class="divCargaDatosTextArea" name="consulta" rows="10" cols="40"></textarea>
-                    <div>
-                        <input type="submit" value="Enviar Aporte">
-                        <input type="reset" value="Limpiar formulario">
-                        <!--Envia la info al archivo que figura en action-->
-                    </div>
-                </div>            
             </div>
-        </div>
-    </form>
+        </form>
+    </main>
     <footer class="classFooter container">
         <div class="textoFooter row">
             <label class="col-12">Por una vida saludable, subite a la Cauconeta y no dejes pasar el tiempo!!!</label>

@@ -1329,12 +1329,15 @@ a.buttonVerFuenteNoticiaIzq:hover, a.buttonVerFuenteNoticiaDer:hover {
     background-image: radial-gradient(rgba(0, 89, 255, 0.445), rgba(141, 216, 97, 0.644))
 }
 /* -------------- CONTACTO ------------- */
+
 #contactoDivContendorFormulario {
-    padding-left: 20%; 
+    width: auto;
+    /* 
+    padding-left: 20%;
     margin-top: 2%;
     margin-bottom: 5%;
     padding-right: 30%; 
-
+*/
 }
 
 #contactoDivGral {
@@ -1371,11 +1374,13 @@ a.buttonVerFuenteNoticiaIzq:hover, a.buttonVerFuenteNoticiaDer:hover {
 }
 
 @media screen and (min-width: 0px) and (max-width: 599px) {
+    /*
     #contactoDivContendorFormulario {
         padding-left: 0; 
         margin-top: 2%;
         margin-bottom: 5%;
     }
+    */
 
     #contactoDivGral {
         display: flex;    
@@ -1389,11 +1394,13 @@ a.buttonVerFuenteNoticiaIzq:hover, a.buttonVerFuenteNoticiaDer:hover {
     }
 }
 @media screen and (min-width: 600px) and (max-width: 767px) {
+    /*
     #contactoDivContendorFormulario {
         padding-left: 10%; 
         margin-top: 2%;
         margin-bottom: 5%;
     }
+    */
 
     #contactoDivGral {
         display: flex;    
@@ -1407,11 +1414,13 @@ a.buttonVerFuenteNoticiaIzq:hover, a.buttonVerFuenteNoticiaDer:hover {
     }
 }
 @media screen and (min-width: 768px) and (max-width: 1223px) {
+    /*
     #contactoDivContendorFormulario {
         margin-top: 2%;
         margin-bottom: 5%;
         padding-left: 10%;
     }
+    */
 
     #contactoDivGral {
         display: flex;    
@@ -1427,12 +1436,13 @@ a.buttonVerFuenteNoticiaIzq:hover, a.buttonVerFuenteNoticiaDer:hover {
 
 
 @media screen and (max-width: 1224px) {
+    /*
     #contactoDivContendorFormulario {
         margin-top: 2%;
         margin-bottom: 5%;
         padding-right: 50%; 
     }
-
+*/
     #contactoDivGral {
         display: block;    
         width: 100%; 
