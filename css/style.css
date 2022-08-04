@@ -1022,12 +1022,6 @@ main{
         width: 100%;
     }
 
-    #inscEventosBotonesInscripcion{
-        margin-top: 3%;
-        margin-bottom: 3%;
-        padding-left: 25%;
-    }
-
     #inscripcionEventosinputApellido{
         margin-left: 21px;
     }
