@@ -397,6 +397,48 @@ nav ul li a {
     }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1595px)
+{
+    .fotoVideoDer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fotoVideoDer> #fotoNovedadDer {
+        transform: rotate(350deg) translate(30px, 30px);
+        height: 80%;
+        width: 30%;
+    }
+    .fotoVideoDer>#fotoNovedadDer2 {
+        transform: rotateZ(10deg) translate(0px, 10px) scale(-1, 1);
+        height: 60%;
+        width: 30%;
+    
+    }
+
+
+/* Media Query Novedades */
+.sectionNovedades > .novedadLayoutIzq{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 2%;
+    border-bottom: 15px solid rgba(128, 128, 128, 0.801);
+}
+
+.sectionNovedades > .novedadLayoutDer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 2%;
+    border-bottom: 5p1x solid rgba(128, 128, 128, 0.801);
+}
+
+/* FIN Media Query Novedades */
+
+}
+
 /* FIN Media Query Proximos Eventos */
 
 
