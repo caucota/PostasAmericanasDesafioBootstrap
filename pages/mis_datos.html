@@ -33,20 +33,20 @@
                                 <li class="nav-item"><a class="nav-link" href="./construccion.html">Eventos Recientes</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a class="nav-link liSeleccionado" href="./mis_datos.html">Mis Datos</a></li>
+                        <li class="nav-item liSeleccionado"><a class="nav-link" href="./mis_datos.html">Mis Datos</a></li>
                         <li class="nav-item"><a class="nav-link" href="./construccion.html">Ingreso</a></li>
                     </ul>
                 </nav>
             </section>
         </div>
     </header>    
-    <main>
+    <main class="justify-content-center align-items-center content" >
         
-        <section class="sectionPrincipal">
-            <article class="section_articlePrincipal" >
+        <section class="sectionPrincipal row">
+            <article id="sectionPrincipalMisDatos" class="section_articlePrincipal" >
                 <!--Formulario-->
                 <h1 class="tituloArticulo">FORMULARIO DE ADHESION</h1>
-                <form id="misDatosFormulario" class= "form-horizontal novedadRadial content" action="felicitaciones.html" method="post">
+                <form id="misDatosFormulario" class= "form-horizontal novedadRadial" action="felicitaciones.html" method="post">
                     <h2 id="misDatosDatosPers" class="col-12">Datos Personales</h2>
                     <div id="misDatosFoto" class="form-group">
                         <img src="../img/FotoEjemplo.jpg" alt="Foto personal">
@@ -94,11 +94,12 @@
                     </div>
 
 
-                    <div id="misDatosBotones" >
-                        <input class="misDatosBotonIzq btn btn-default" type="submit" value="Enviar Registro">
-                        <input class="misDatosBotonDer btn btn-default" type="reset" value="Limpiar formulario">
+                    <div id="misDatosBotones"  align="center" >
+                        <input class="btn btn-default" type="submit" value="Enviar Registro">
+                        <input class="btn btn-default" type="reset" value="Limpiar formulario">
                         <!--Envia la info al archivo que figura en action-->
                     </div>
+                    <br>
                 </form>
             <article>
         </section>
